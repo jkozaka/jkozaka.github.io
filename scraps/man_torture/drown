@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DROWN THE MAN!</title>
+    <link rel="stylesheet" href="../../general.css">
+    <link rel="icon" type="image/x-icon" href="https://qph.cf2.quoracdn.net/main-qimg-dddcae8482c8a9542a35ff301b689180-lq">
+  </head>
+  
+  <body>
+    <script>
+      hp=100
+      function ifdead() {
+        if (hp == 0) {
+          alert("you killed him");
+        }
+      }
+      function atacc() {
+        if (hp > 0) {
+          hp=hp-1;
+          document.getElementById("victim").src = "https://qph.cf2.quoracdn.net/main-qimg-dddcae8482c8a9542a35ff301b689180-lq";
+          reloadhp();
+          ifdead();
+        }
+      }
+      function reset() {
+        hp=100;
+        document.getElementById("life").innerHTML = hp;
+        document.getElementById("victim").src = "https://thumbs.dreamstime.com/b/portrait-scared-man-gray-i-m-afraid-fright-portrait-scared-man-business-man-standing-isolated-gray-studio-141098070.jpg"; 
+      }
+      function save() {
+        document.getElementById("victim").src = 'https://image.shutterstock.com/image-photo/happy-man-peace-sign-isolated-260nw-134578250.jpg';
+        document.getElementById("atacc").style.display = "none";
+        document.getElementById("reset").style.display = "none";  
+        document.getElementById("save").style.display = "none"; 
+        document.getElementById("title").innerHTML = "You saved the man"; 
+      }
+    </script>
+
+    <h1 id="title">Drown The Man</h1>
+    <img id="victim" src="https://thumbs.dreamstime.com/b/portrait-scared-man-gray-i-m-afraid-fright-portrait-scared-man-business-man-standing-isolated-gray-studio-141098070.jpg" width="400" height="250">
+    
+    <br><button id="reset" onclick="hp=100;reloadhp()">reset</button>
+    <button id="atacc" onclick="atacc()">atacc</button>
+    <button id="save" onclick="save()">save</button>
+     
+    <br><h2>man hp</h2>
+    <h3 id="life">100</h3>
+  </body>
+</html>
