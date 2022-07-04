@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="general.css">
+        <link rel="icon" type="image/x-icon" href="http://funflagfacts.com/wp-content/uploads/2015/08/2000px-gay_flag-svg.png">
+    </head>
+
+    <body>
+
+        <h1>Homosexuality Test</h1>
+        <p>1st Question: Are You Gay?</p>
+
+        <button onclick="document.getElementById('result').innerHTML = 'You are gay'">yes</button>
+        <button onclick="document.getElementById('result').innerHTML = 'Maybe you are gay'">maybe</button>
+        <button onclick="document.getElementById('result').innerHTML = 'You aren\'t  gay'">no</button><br><br>
+        
+        <h2>result:</h2>
+        <p id="result" class="result"></p>
+
+        <p id="disclaimer">this is made with no ill will towards the lgbtq+ community</p>
+    </body>
+</html>
