@@ -3,4 +3,6 @@ body {
   text-align: center;
   font-family: monospace;
   color: lightgrey;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
