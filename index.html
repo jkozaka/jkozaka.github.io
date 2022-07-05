@@ -2,7 +2,10 @@
   <head>
     <link rel="stylesheet" href="general.css">
     <style>
-      #contents{padding-top: 20cm;}
+      #contents{padding-top: 100px;}
+      .indent1{padding-left: 20px;}
+      .indent2{padding-left: 40px;}
+
     </style>
   </head>
   <body>
@@ -10,19 +13,16 @@
     I make Stuff
 
     <h3 id="contents">Contents</h3><br>
-    <table >
-      <tr>
-        <td>
-          <h4>Scraps</h4>
-        </td>
-        <td>
-          <a href="scraps/gay_test.html">Gay Test</a>
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
+    <h4>Scraps {</h4>
+
+      <a class="indent1" href="scraps/gay_test">Gay Test</a><br>
+
+      <h5 class="indent1">Man Torture Simulators {</h5>
+        <a href="scraps/man_torture/drown" class="indent2">Drown The Man</a>
+        <a href="scraps/man_torture/kill" class="indent2">Kill The Man</a>
+      <h5 class="indent1">}</h5>
+    <h4>}</h4>
+
+
   </body>
 </html>
