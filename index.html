@@ -1,25 +1,36 @@
 <html>
   <head>
     <link rel="stylesheet" href="general.css">
+    <style>
+      #contents{padding-top: 100px;}
+      .indent1{padding-left: 20px;}
+      .indent2{padding-left: 40px;}
+
+      div {
+        margin: 0 auto;
+        width: 250px;
+        text-align: left;
+      }
+
+    </style>
   </head>
   <body>
     <h2>I am jkozaka</h2>
     I make Stuff
 
-    <h3>Contents</h3><br>
-    <table id="linktable">
-      <tr>
-        <td>
-          <h4>Scraps</h4>
-        </td>
-        <td>
-          <a href="scraps/gay_test.html">Gay Test</a>
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
+
+  <div>
+    <h3 id="contents">Contents</h3>
+    <b>Scraps {</b><br>
+
+      <a class="indent1" href="scraps/gay_test">Gay Test</a><br>
+
+      <b class="indent1">Man Torture Simulators {</b><br>
+        <a href="scraps/man_torture/drown" class="indent2">Drown The Man</a> (broken)<br>
+        <a href="scraps/man_torture/kill" class="indent2">Kill The Man</a><br>
+      <b class="indent1">}</b><br>
+    <b>}</b>
+  </div>
+
   </body>
 </html>
