@@ -1,4 +1,7 @@
 /*unused.*/
+body        {text-align: center;}
+.monospace  {font-family: monospace;}
+
 .dark {
   background-color: #111122 ;
   color: #d3d3d3;
