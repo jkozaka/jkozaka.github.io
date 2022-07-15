@@ -7,35 +7,30 @@ body {
 }
 
 .dark {
-    background-color: #0f0804;
-    color: #ffffcc;
+  background-color: #111122 ;
+  color: #d3d3d3;
 }
 
 .light {
-    background-color: #ffffcc;
-    color: #0f0804;
+    background-color: #d3d3d3;
+    color: #111122;
 }
 
-.classic {
-  background-color: #111122 ;
-  color: lightgrey;
-}
-
-.black  {color: #0f0804;}
+.black  {color: #111122;}
 .red    {color: #cc4444;}
 .green  {color: #44cc44;}
 .yellow {color: #cccc44;}
 .blue   {color: #4444cc;}
 .purple {color: #aa44cc;}
 .cyan   {color: #44cccc;}
-.white  {color: #ffffcc;}
+.white  {color: #d3d3d3;}
 
 
-.blackbg  {background-color: #0f0804;}
+.blackbg  {background-color: #111122;}
 .redbg    {background-color: #cc4444;}
 .greenbg  {background-color: #44cc44;}
 .yellowbg {background-color: #cccc44;}
 .bluebg   {background-color: #4444cc;}
 .purplebg {background-color: #aa44cc;}
 .cyanbg   {background-color: #44cccc;}
-.whitebg  {background-color: #ffffcc;}
+.whitebg  {background-color: #d3d3d3;}
