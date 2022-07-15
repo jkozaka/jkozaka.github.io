@@ -16,6 +16,11 @@ body {
     color: #0f0804;
 }
 
+.classic {
+  background-color: #111122 ;
+  color: lightgrey;
+}
+
 .black  {color: #0f0804;}
 .red    {color: #cc4444;}
 .green  {color: #44cc44;}
