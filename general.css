@@ -1,36 +1,8 @@
 body {
-  text-align: center;
-}
-
-.monospace {
-    font-family: monospace;
-}
-
-.dark {
-  background-color: #111122 ;
-  color: #d3d3d3;
-}
-
-.light {
-    background-color: #d3d3d3;
-    color: #111122;
-}
-
-.black  {color: #111122;}
-.red    {color: #cc4444;}
-.green  {color: #44cc44;}
-.yellow {color: #cccc44;}
-.blue   {color: #4444cc;}
-.purple {color: #aa44cc;}
-.cyan   {color: #44cccc;}
-.white  {color: #d3d3d3;}
-
-
-.blackbg  {background-color: #111122;}
-.redbg    {background-color: #cc4444;}
-.greenbg  {background-color: #44cc44;}
-.yellowbg {background-color: #cccc44;}
-.bluebg   {background-color: #4444cc;}
-.purplebg {background-color: #aa44cc;}
-.cyanbg   {background-color: #44cccc;}
-.whitebg  {background-color: #d3d3d3;}
+    text-align: center;
+  }
+  
+  .monospace {
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
