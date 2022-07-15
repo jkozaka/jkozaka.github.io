@@ -17,15 +17,22 @@
         padding-top: 10px;
       }
 
+      #picker {
+        text-align: left;
+      }
+
     </style>
   </head>
-  <body class="monospace dark">
-    <div id="title" class="monospace dark">
-        <h2>I am jkozaka</h2>
-        I make Stuff
+  <body class="monospace dark" id="theme">
+    <div id="picker">
+      <h3>Theme picker</h3>
+      <button onclick="getElementById('theme').className='monospace dark'">Dark</button>
+      <button onclick="getElementById('theme').className='monospace light'">Light</button>
     </div>
+    <h2>I am jkozaka</h2>
+    I make Stuff
 
-  <div id="links" class="monospace dark">
+  <div id="links">
     <h3 id="contents">Contents</h3>
     <b>Scraps {</b><br>
 
